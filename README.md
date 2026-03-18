@@ -1,139 +1,74 @@
-# 🌿 Aria Alive – AI Emotional Support Companion
+# Aria Alive
 
-## 🔍 Overview
+## Overview
 
-**Aria Alive** is an AI-powered conversational agent designed to provide **empathetic, real-time emotional support**. Built with a focus on Gen Z users, the system understands user input (text, voice, or emotion) and responds with supportive, non-clinical guidance to promote mental well-being.
-
----
-
-## 🎯 Problem Statement
-
-In today’s fast-paced digital world:
-
-* Many individuals struggle with stress, anxiety, and emotional overload
-* Access to mental health support is limited or delayed
-* Users hesitate to seek professional help due to stigma
+Aria Alive is a web-based AI conversational system that provides basic emotional support through user interaction. The system takes user input and generates responses to simulate a supportive conversation.
 
 ---
 
-## 💡 Solution
+## Features
 
-Aria Alive acts as a **first-line emotional support system**, offering:
-
-* Instant conversations
-* Emotion-aware responses
-* Safe and judgment-free interaction
-
-It helps users feel heard and guides them toward healthier actions.
+* Text-based user interaction
+* AI-generated responses
+* Simple web interface
+* Real-time communication
 
 ---
 
-## ✨ Key Features
+## Technologies Used
 
-* 💬 AI-powered conversational interface
-* 😊 Emotion-aware responses (text / voice / facial cues)
-* 🧠 Personalized suggestions for mental well-being
-* 🔐 Privacy-focused interaction (no sensitive data storage)
-* ⚡ Real-time response system
-* 🌐 Web-based accessible platform
-
----
-
-## 🧠 Tech Stack
-
-* **Frontend:** HTML, CSS, JavaScript
-* **Backend:** Python / Flask
-* **AI/NLP:** OpenAI API / NLP models
-* **Emotion Detection:** Facial / Voice / Text analysis
-* **Database:** (Optional) Local / Cloud storage
+* Python
+* Flask
+* HTML
+* CSS
+* JavaScript
 
 ---
 
-## 🏗️ System Workflow
+## Project Structure
 
-```id="m6nq3q"
-User Input (Text / Voice / Face)
-        ↓
-Emotion Detection & Analysis
-        ↓
-AI Response Generation
-        ↓
-Supportive Feedback / Suggestions
 ```
-
----
-
-## 📂 Project Structure
-
-```id="0sh6a1"
 aria-alive/
 │
-├── static/              # CSS, JS, assets
-├── templates/           # UI pages
-├── app.py               # Main backend server
-├── emotion.py           # Emotion detection logic
-├── chatbot.py           # AI response generation
-├── utils/               # Helper functions
+├── static/          # CSS and JavaScript files
+├── templates/       # HTML pages
+├── app.py           # Main Flask application
 └── README.md
 ```
 
 ---
 
-## ⚙️ Installation & Setup
+## How to Run
 
-### 1️⃣ Clone Repository
+1. Clone the repository
 
-```bash id="fkh2w2"
-git clone https://github.com/your-username/aria-alive.git
-cd aria-alive
+```
+git clone https://github.com/Parnas16/ARIA-.git
+cd ARIA-
 ```
 
-### 2️⃣ Install Dependencies
+2. Install required packages
 
-```bash id="3d7kfw"
+```
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run the Application
+3. Run the application
 
-```bash id="d6x9v7"
+```
 python app.py
 ```
 
 
 
-## ⚠️ Disclaimer
+## Output
 
-Aria Alive is **not a replacement for professional medical or psychological treatment**. It is designed as a **supportive tool** for emotional well-being and guidance.
-
----
-
-## 📊 Impact
-
-* 💙 Provides instant emotional support
-* 📉 Reduces hesitation in seeking help
-* 🧠 Encourages healthy coping strategies
-* 🌍 Accessible anytime, anywhere
+* User can enter input through the web interface
+* System responds with generated replies
+* Interaction happens in real-time
 
 ---
 
-## 🔮 Future Enhancements
+## Author
 
-* Mobile app integration
-* Advanced emotion detection using deep learning
-* Multilingual support
-* Integration with professional mental health services
-
----
-
-## 🏆 Why This Project Stands Out
-
-* Focuses on **real-world social impact**
-* Combines **AI + Emotion Intelligence**
-* Designed with **user empathy and privacy** in mind
-* Demonstrates **full-stack + AI integration skills**
-
----
-## ⭐ Support
-
-If you found this project meaningful, consider giving it a ⭐ on GitHub!
+Parna Sree
